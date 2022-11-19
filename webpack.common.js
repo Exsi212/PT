@@ -99,7 +99,34 @@ module.exports = {
       filename: './reach-us.html',
       chunks: ['index']
     }),
-
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/games.html',
+      filename: './games.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/gamehistory.html',
+      filename: './gamehistory.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/console.html',
+      filename: './console.html',
+      chunks: ['index']
+    }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      scriptLoading: 'blocking',
+      template: './src/studios.html',
+      filename: './studios.html',
+      chunks: ['index']
+    }),
     // Internal pages
     new HtmlWebpackPlugin({
       hash: true,
