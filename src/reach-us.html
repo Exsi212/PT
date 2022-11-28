@@ -7,33 +7,36 @@
   </head>
 
   <body class="reach-us">
-    <header>
-      <nav>
-        <a href="/">
-          <div class="logoContainer">
-            <div class="logo"></div>
-          </div>
-        </a>
-        <li>Игры</li>
-        <li>История игр</li>
-        <li>Студии</li>
-        <li>Приставки</li>
-      </nav>
-    </header>
-    <main>
-      <h1>мы крутые!</h1>
-      <h2>и хотим это доказать</h2>
-      <p>
-        Рады познакомиться с вами! Напишите нам ваши пожелания, идеи и
-        впечатления от нашего медиа-сервиса.
-      </p>
+    <!-- Оболочка -->
+    <div class="wrapper">
+      <!-- Шапка (grid-элемент + grid-контейнер)-->
+      <header class="header">
+        <div class="header_logo">
+          <a href="#">
+            <img src="#" alt="Логотип" />
+          </a>
+        </div>
+        <nav class="header_menu">
+          <ul class="header_list">
+            <li>
+              <a href="#" class="header_link">Игры</a>
+            </li>
+            <li>
+              <a href="#" class="header_link">История игр</a>
+            </li>
+            <li>
+              <a href="#" class="header_link">Студии</a>
+            </li>
+            <li>
+              <a href="#" class="header_link">Приставки</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
-      <form>
-        <input type="email" placeholder="E-mail" />
-        <textarea placeholder="Сообщение"></textarea>
-        <button>Отправить</button>
-      </form>
-    </main>
+      <!-- Основное содержимое -->
+      <main class="main">
+
     <footer>
       <div class="columnsContainer">
         <div class="contacts">
